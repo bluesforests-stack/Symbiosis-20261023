@@ -1,0 +1,17 @@
+{
+  "counts": {
+    "traffic/mainland": 50,
+    "traffic/macao": 50,
+    "glyph/macao": 50,
+    "glyph/mainland": 50,
+    "culture/mainland": 20,
+    "culture/macao": 20
+  },
+  "unique_asset_ids": 240,
+  "unique_svg_documents": 240,
+  "unique_hanzi": 100,
+  "repeated_scene_instances": 0,
+  "checks": "passed",
+  "visible_ui_controls": 4,
+  "interaction_guide": "browser verified"
+}

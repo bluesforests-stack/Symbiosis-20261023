@@ -1,0 +1,1842 @@
+[
+  {
+    "id": "traffic-mainland-01",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "直行",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b8412f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M0 29V-29M-13-15L0-29 13-15\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-02",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "左转",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#293d7e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 27V-6Q22-17 11-17H-25M-10-30L-25-17-10-4\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-03",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "右转",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#29685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-23 25V-4Q-23-19-8-19H28M13-32L28-19 13-6\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-04",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "掉头",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b8412f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 29V-13C21-38-20-38-20-13V9M-31-3L-20 9-9-3\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-05",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "环岛",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#293d7e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-20-16A25 25 0 0 1 20-16M20 16A25 25 0 0 1-20 16M-20-16L-20-30M-20-16L-6-16M20 16V30M20 16H6\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-06",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "双向通行",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#29685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-12 29V-29M-22-19L-12-29-2-19M12-29V29M2 19L12 29 22 19\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-07",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "靠右绕行",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b8412f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-28 27L28-27M9-27H28V-8\" /><path d=\"M-26-25V-8H-9\" stroke-width=\"4\"/></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-08",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "分流",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#293d7e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M0 31V-8M0-8L-25-29M0-8L25-29M-25-13V-29H-9M9-29H25V-13\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-09",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "合流",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#29685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-26 28L0-3 26 28M0 30V-30M-12-18L0-30 12-18\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-10",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "十字交叉",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b8412f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-9-30H9V-9H30V9H9V30H-9V9H-30V-9H-9Z\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-11",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "丁字路",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#293d7e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-30-23H30V-7H8V30H-8V-7H-30Z\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-12",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "错位交叉",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#29685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-7-32H7V-12H30V2H7V32H-7V14H-30V0H-7Z\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-13",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "急弯",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b8412f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-27 28V-7H21V-28M8-16L21-28 34-16\" stroke-width=\"3\"/></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-14",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "连续弯路",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#293d7e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M0 31C-53 6 50-10 0-33\" stroke-width=\"6\"/></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-15",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "窄桥",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#29685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-28-30L-12-10V10L-28 30M28-30L12-10V10L28 30M-35-10H-19M19 10H35\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-16",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "隧道",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b8412f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-30 28V-4A30 30 0 0 1 30-4V28M-19 28V-4A19 19 0 0 1 19-4V28M0 31V7\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-17",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "上坡",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#293d7e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-32 26L30-20V26Z\" /><path d=\"M-20 5L16-21M3-21H16V-8\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-18",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "下坡",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#29685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-31-16L31 27H-31Z\" /><path d=\"M-16-24L20 1M7 1H20V-12\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-19",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "落石",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b8412f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-32 31L-10 12-18 0-7-10-15-31\" /><path d=\"M1-20L10-26 17-15 9-8ZM13 1L23-5 31 6 21 16ZM-1 18L8 15 14 27 2 31Z\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-20",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "横风",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#293d7e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-25 31V-30L30-18-25-6M-8-26V-11M9-22V-8M-33 12H-2M-33 21H-12\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-21",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "湿滑",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#29685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-21-19L-14-31H15L22-19V0H-21ZM-12-19H13M-14 5C-31 17 9 17-10 30M15 5C-2 17 35 17 18 30\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-22",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "驼峰桥",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b8412f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-33 22H-19C-6-19 6-19 19 22H33M-32 31H32M-18 15V31M18 15V31\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-23",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "路面不平",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#293d7e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-33 6C-24-17-17-17-8 6S8 29 17 6 27-17 34 6M-33 26H33\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-24",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "施工",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#29685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"1\" cy=\"-21\" r=\"5\"/><path d=\"M-3-13L-10 4 10 10 22 29M-10 4L-22 27M-2-9L14 0M10-5L22 20M16 21H32L36 30H11Z\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-25",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "行人",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b8412f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"2\" cy=\"-25\" r=\"5\"/><path d=\"M1-16L-6 2 9 10 20 29M-6 2L-19 29M0-13L14-2 24-3M-1-12L-19 0\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-26",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "儿童",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#293d7e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"-12\" cy=\"-20\" r=\"4\"/><circle cx=\"17\" cy=\"-14\" r=\"4\"/><path d=\"M-12-13L-18 3-28 22M-18 3L-3 23M-9-10L5-3 14-7M16-7L13 9 27 27M13 9L3 26\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-27",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "自行车",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#29685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"-21\" cy=\"17\" r=\"12\"/><circle cx=\"21\" cy=\"17\" r=\"12\"/><path d=\"M-21 17L-6-7 9 17H-21M-6-7H12L21 17M-10-13H0M12-7L17-18H25\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-28",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "公共汽车",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b8412f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"-27\" y=\"-29\" width=\"54\" height=\"53\"/><rect x=\"-20\" y=\"-20\" width=\"40\" height=\"20\"/><circle cx=\"-16\" cy=\"13\" r=\"4\"/><circle cx=\"16\" cy=\"13\" r=\"4\"/><path d=\"M-19 25V32M19 25V32M-12-34H12\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-29",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "有轨电车",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#293d7e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-25 23V-24H25V23ZM-18-16H18V0H-18ZM-15 24L-23 34M15 24L23 34M-12 31H12M-11-26L1-35 13-26\" /><circle cx=\"-14\" cy=\"13\" r=\"3\"/><circle cx=\"14\" cy=\"13\" r=\"3\"/></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-30",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "铁路道口",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#29685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-26-28L26 28M26-28L-26 28M-27-18L-18-27M18 27L27 18M-27 18L-18 27M18-27L27-18\" /><path d=\"M-33 0H33\" stroke-width=\"4\"/></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-31",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "禁止进入",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b8412f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"0\" cy=\"0\" r=\"28\"/><path d=\"M-20 0H20\" stroke-width=\"8\"/></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-32",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "禁止鸣笛",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#293d7e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-23-8H-12L5-23V23L-12 8H-23ZM13-14Q30 0 13 14M21-22Q42 0 21 22M-29 29L29-29\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-33",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "禁止停车",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#29685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"0\" cy=\"0\" r=\"29\"/><path d=\"M-20-20L20 20M20-20L-20 20\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-34",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "限制高度",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b8412f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-24-30H24M-24 30H24M0-24V24M-10-14L0-24 10-14M-10 14L0 24 10 14\" /><text x=\"23\" y=\"0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"currentColor\" stroke=\"none\">m</text></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-35",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "限制宽度",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#293d7e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-31-23V23M31-23V23M-25 0H25M-15-10L-25 0-15 10M15-10L25 0 15 10\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-36",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "限重",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#29685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-22-13L-30 25H30L22-13Z\" /><path d=\"M-10-13V-24Q0-34 10-24V-13\" /><text x=\"0\" y=\"7\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"currentColor\" stroke=\"none\">t</text></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-37",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "让行",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b8412f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-31-24H31L0 31ZM-18-16H18L0 16Z\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-38",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "停车让行",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#293d7e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-13-31H13L31-13V13L13 31H-13L-31 13V-13Z\" /><text x=\"0\" y=\"0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"currentColor\" stroke=\"none\">STOP</text></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-39",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "潮汐车道",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#29685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-30-28H-9L-22-12ZM30 28H9L22 12Z\" /><path d=\"M-7 29V-29M7-29V29M-29 9L-15-5M-29-5L-15 9\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-40",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "高速公路",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b8412f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-20 31L-9-31M20 31L9-31M-32-11H32M-28-5H28M0 30V20M0 10V0M0-10V-20\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-41",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "紧急停车带",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#293d7e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-20 33V-32H20V-7H-4V33M-13 21H-4M-13 9H-4M-13-3H-4M-13-15H13\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-42",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "充电",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#29685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"-23\" y=\"-28\" width=\"34\" height=\"53\"/><path d=\"M11-18H22L30-8V20Q30 29 21 20V4H11M-6-20L-16 0H-5L-12 17 3-6H-7Z\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-43",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "服务区",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b8412f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-31-29H-11V-7Q-21 3-31-7ZM-21 0V30M12-29V-1H29V-29M20-1V30M12-15H29\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-44",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "急救",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#293d7e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-8-30H8V-8H30V8H8V30H-8V8H-30V-8H-8Z\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-45",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "消防通道",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#29685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-9 31C-45 8-16-6-12-31C12-17-4-8 19-20C17-1 43 11 12 31M-5 25C-18 12-3 4 0-5C18 12 18 20 4 27\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-46",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "轮椅通道",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b8412f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"-1\" cy=\"-24\" r=\"5\"/><path d=\"M-2-15V7H17L26 24 33 20M-2-4H18\" /><path d=\"M-8 0A18 18 0 1 0 14 18\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-47",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "人行天桥",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#293d7e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-33 29L-19 15H-7V-2H7V-15H21V-29H34M-33 35H-13V21H0V6H14V-8H29V-20H36\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-48",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "交叉导流",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#29685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-32 31L32-31M-27 1L-1-25M-17 11L9-15M-7 21L19-5M3 31L29 5M-32-17L-17-32\" /></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-49",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "减速标线",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b8412f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-32-28H32M-28-12H28M-23 6H23M-18 26H18\" stroke-width=\"5\"/></g></svg>"
+  },
+  {
+    "id": "traffic-mainland-50",
+    "category": "traffic",
+    "family": "mainland",
+    "name": "道路网格",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#293d7e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-29-29H29V29H-29ZM-29-10H29M-29 10H29M-10-29V29M10-29V29M-29-29L29 29M29-29L-29 29\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-01",
+    "category": "traffic",
+    "family": "macao",
+    "name": "中葡街牌",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-32-20H32V20H-32ZM-25-13H25M-25 12H25M-7-13V12\" /><text x=\"9\" y=\"0\" font-family=\"Arial,sans-serif\" font-size=\"10\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"currentColor\" stroke=\"none\">RUA</text><path d=\"M-23-4H-13M-23 4H-13\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-02",
+    "category": "traffic",
+    "family": "macao",
+    "name": "葡式转角",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a05b65\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-31 24V-18Q-31-31-18-31H18Q31-31 31-18V0H-6V24Z\" /><text x=\"8\" y=\"-16\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"currentColor\" stroke=\"none\">R.</text></g></svg>"
+  },
+  {
+    "id": "traffic-macao-03",
+    "category": "traffic",
+    "family": "macao",
+    "name": "左侧行车",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ab8237\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-28 30V-30M28 30V-30M-13 26V-20M-24-9L-13-20-2-9M13-26V21M4 12L13 21 22 12\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-04",
+    "category": "traffic",
+    "family": "macao",
+    "name": "回旋处",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-28-5C-25-39 27-39 29-4C35 28 5 38-15 26M-15 26L-2 27M-15 26L-10 13M-3-10V14L17 4Z\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-05",
+    "category": "traffic",
+    "family": "macao",
+    "name": "斜坡巷道",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a05b65\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-34 24L-18 13 0 20 17 1 34-5M-34 9L-18-4 0 2 17-18 34-24M-18-4V13M0 2V20M17-18V1\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-06",
+    "category": "traffic",
+    "family": "macao",
+    "name": "窄巷转折",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ab8237\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-28-31V5H-7V31M-12-31V-10H12V16H30M7-31V-26H28V0\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-07",
+    "category": "traffic",
+    "family": "macao",
+    "name": "阶梯街",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-33 32V22H-22V11H-11V0H0V-11H11V-22H22V-33M-22 32V25H-11V14H0V3H11V-8H22V-19H33\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-08",
+    "category": "traffic",
+    "family": "macao",
+    "name": "拱形过街",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a05b65\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-32 29V-4Q-32-35 0-35Q32-35 32-4V29M-32 4H-15M15 4H32M-32 17H-15M15 17H32M-15 30V-2Q0-24 15-2V30\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-09",
+    "category": "traffic",
+    "family": "macao",
+    "name": "石仔路",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ab8237\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-33-26Q-17-8 0-26T33-26M-33-8Q-17 10 0-8T33-8M-33 10Q-17 28 0 10T33 10M-24 28Q-8 43 8 28T33 28\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-10",
+    "category": "traffic",
+    "family": "macao",
+    "name": "巴士站亭",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-33-12Q0-38 33-12M-25-12V26M25-12V26M-25-6H25M-14 18H14M-7 18V28M14 18V28\" /><circle cx=\"0\" cy=\"-17\" r=\"3\"/></g></svg>"
+  },
+  {
+    "id": "traffic-macao-11",
+    "category": "traffic",
+    "family": "macao",
+    "name": "的士候车",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a05b65\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-30-9L-21-25H21L30-9V18H-30ZM-20-8H20M-18 19V28M18 19V28\" /><rect x=\"-10\" y=\"-32\" width=\"20\" height=\"6\"/><text x=\"0\" y=\"4\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"currentColor\" stroke=\"none\">T</text></g></svg>"
+  },
+  {
+    "id": "traffic-macao-12",
+    "category": "traffic",
+    "family": "macao",
+    "name": "电单车",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ab8237\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"-22\" cy=\"19\" r=\"11\"/><circle cx=\"22\" cy=\"19\" r=\"11\"/><path d=\"M-22 19L-7-4 9 19H-22M9 19H22L8-18H19M-14-7H-1M3-23L11-28\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-13",
+    "category": "traffic",
+    "family": "macao",
+    "name": "轻轨高架",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-34 8H34M-34 15H34M-22 15V34M22 15V34M-27 1V-19Q0-38 27-19V1ZM-18-20H18V-6H-18\" /><circle cx=\"-14\" cy=\"-1\" r=\"2\"/><circle cx=\"14\" cy=\"-1\" r=\"2\"/></g></svg>"
+  },
+  {
+    "id": "traffic-macao-14",
+    "category": "traffic",
+    "family": "macao",
+    "name": "海上客运",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a05b65\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-33 9H33L19 25H-16ZM-16 9V-10H14V9M-8-10V-23H5V-10M-34 32Q-23 22-12 32T10 32T32 32\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-15",
+    "category": "traffic",
+    "family": "macao",
+    "name": "跨海桥",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ab8237\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-35 6H35M-23-28V28M23-28V28M-23-28Q0 18 23-28M-12-9V6M0-4V6M12-9V6M-35 32Q-20 21-5 32T25 32\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-16",
+    "category": "traffic",
+    "family": "macao",
+    "name": "友谊桥曲线",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-35 24Q-19 2-6 13T18-4 35-16M-35 13Q-19-9-6 2T18-15 35-27M-20 0V27M7-5V24M26-19V8\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-17",
+    "category": "traffic",
+    "family": "macao",
+    "name": "口岸双门",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a05b65\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-32 31V-22H-5V31M5 31V-22H32V31M-36-30H36M-27-12H-10M10-12H27M-27 2H-10M10 2H27M-27 16H-10M10 16H27\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-18",
+    "category": "traffic",
+    "family": "macao",
+    "name": "莲花路标",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ab8237\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M0 15C-30 5-36-23-17-16C-17-34 0-39 0-16C0-39 17-34 17-16C36-23 30 5 0 15ZM0 15V34M-13 24H13\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-19",
+    "category": "traffic",
+    "family": "macao",
+    "name": "双语停车",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-31-28H31V28H-31M-31-7H31M-31 11H31\" /><text x=\"-17\" y=\"-17\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"4\" y=\"2\" font-family=\"Arial,sans-serif\" font-size=\"8\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"currentColor\" stroke=\"none\">PARQUE</text><path d=\"M-21 20H20\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-20",
+    "category": "traffic",
+    "family": "macao",
+    "name": "蓝白导向片",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a05b65\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-34-14H11L33 0 11 14H-34M-25-7H5M-25 1H15M-25 8H-3\" /><circle cx=\"23\" cy=\"0\" r=\"2\"/></g></svg>"
+  },
+  {
+    "id": "traffic-macao-21",
+    "category": "traffic",
+    "family": "macao",
+    "name": "街巷门牌",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ab8237\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-22-31H22L31-22V22L22 31H-22L-31 22V-22Z\" /><text x=\"0\" y=\"-10\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"currentColor\" stroke=\"none\">N.º</text><path d=\"M-17 7H17M-10 18H10\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-22",
+    "category": "traffic",
+    "family": "macao",
+    "name": "慢驶波纹",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-32-19H-10M-32-7H-10M-32 5H-10M-4-25Q14-9 32-25M-4-6Q14 10 32-6M-4 13Q14 29 32 13\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-23",
+    "category": "traffic",
+    "family": "macao",
+    "name": "葡文慢行",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a05b65\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-33-25H33V25H-33M-25-16H25M-25 16H25\" /><text x=\"0\" y=\"0\" font-family=\"Arial,sans-serif\" font-size=\"9\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"currentColor\" stroke=\"none\">DEVAGAR</text></g></svg>"
+  },
+  {
+    "id": "traffic-macao-24",
+    "category": "traffic",
+    "family": "macao",
+    "name": "让路斜线",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ab8237\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-32-28H32L0 32M-22-15H22L0 15M-34 30L-20 16M20 16L34 30\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-25",
+    "category": "traffic",
+    "family": "macao",
+    "name": "车流错层",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-34-13H2L-6-21M2-13L-6-5M34 13H-2L6 5M-2 13L6 21M-10-33V-25M10 25V33\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-26",
+    "category": "traffic",
+    "family": "macao",
+    "name": "行人安全岛",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a05b65\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M0-32Q-23-5-23 19Q0 37 23 19Q23-5 0-32ZM-12 10H12M-8-2H8M-4-14H4\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-27",
+    "category": "traffic",
+    "family": "macao",
+    "name": "坡道扶手",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ab8237\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-32 23L30-19M-32 11L30-31M-22 5V30M-2-9V16M18-23V2M-35 33H-16M7 4H31\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-28",
+    "category": "traffic",
+    "family": "macao",
+    "name": "石栏警示",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-31-24V27M-11-24V27M11-24V27M31-24V27M-35-18H35M-35 16H35M-31-5H-11M11-5H31\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-29",
+    "category": "traffic",
+    "family": "macao",
+    "name": "黄黑路缘",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a05b65\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-35 18L17-25 35-8-17 35ZM-24 9L-6 26M-11-2L7 15M2-13L20 4M15-24L33-7\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-30",
+    "category": "traffic",
+    "family": "macao",
+    "name": "隧道入口光环",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ab8237\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-32 27V-2A32 32 0 0 1 32-2V27M-24 27V-2A24 24 0 0 1 24-2M-16 27V-2A16 16 0 0 1 16-2M-8 27V0A8 8 0 0 1 8 0\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-31",
+    "category": "traffic",
+    "family": "macao",
+    "name": "港湾停靠",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-30-32V-5Q-30 19-9 19H27V31H-9Q-42 31-42-5M-18-32V-5Q-18 7-7 7H27M12-5L27 7 12 19\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-32",
+    "category": "traffic",
+    "family": "macao",
+    "name": "渡轮桅杆",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a05b65\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-31 17H31L18 31H-18ZM0 16V-34M-5-28L-25 9H-5ZM6-31L28 9H6ZM-35 37Q-20 27-5 37T25 37\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-33",
+    "category": "traffic",
+    "family": "macao",
+    "name": "葡式铺面星",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ab8237\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M0-34L7-10 31-17 16 3 28 25 5 17-9 36-13 11-37 6-14-6-19-30-1-17Z\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-34",
+    "category": "traffic",
+    "family": "macao",
+    "name": "三叉街口",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-29-29L0 0 29-29M0 0V32M-29-29V-12M-29-29H-12M29-29V-12M29-29H12M-12 20L0 32 12 20\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-35",
+    "category": "traffic",
+    "family": "macao",
+    "name": "双环换向",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a05b65\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"-15\" cy=\"0\" r=\"17\"/><circle cx=\"15\" cy=\"0\" r=\"17\"/><path d=\"M-28-25L-35-5-15-8M28 25L35 5 15 8\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-36",
+    "category": "traffic",
+    "family": "macao",
+    "name": "观光步径",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ab8237\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-29 30C30 29-31-2 9-8C35-14 20-35 0-28\" /><circle cx=\"-29\" cy=\"30\" r=\"4\"/><circle cx=\"0\" cy=\"-28\" r=\"5\"/><path d=\"M20 21L30 11M26 28L36 18\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-37",
+    "category": "traffic",
+    "family": "macao",
+    "name": "多语指向",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-29-31H17L31-20 17-9H-29ZM29 0H-17L-31 11-17 22H29M0 22V36\" /><text x=\"-2\" y=\"-20\" font-family=\"Arial,sans-serif\" font-size=\"8\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"currentColor\" stroke=\"none\">RUA</text><text x=\"3\" y=\"11\" font-family=\"Arial,sans-serif\" font-size=\"8\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"currentColor\" stroke=\"none\">VIA</text></g></svg>"
+  },
+  {
+    "id": "traffic-macao-38",
+    "category": "traffic",
+    "family": "macao",
+    "name": "摩托候灯",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a05b65\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-28-31H-11V1H-28ZM-19 1V22\" /><circle cx=\"-19\" cy=\"-23\" r=\"3\"/><circle cx=\"-19\" cy=\"-15\" r=\"3\"/><circle cx=\"-19\" cy=\"-7\" r=\"3\"/><circle cx=\"2\" cy=\"23\" r=\"8\"/><circle cx=\"28\" cy=\"23\" r=\"8\"/><path d=\"M2 23L11 9 28 23M8 9H18M20 2L28 23\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-39",
+    "category": "traffic",
+    "family": "macao",
+    "name": "分层过路",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ab8237\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-34-24H34M-34-16H34M-18-16V12L-30 24M18-16V12L30 24M-34 32H34M-7 32V21M7 32V21\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-40",
+    "category": "traffic",
+    "family": "macao",
+    "name": "步行暂停",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-28 29V-6Q-28-13-21-6V8-24Q-21-32-14-24V5-31Q-14-39-7-31V5-25Q-7-33 0-25V7Q16-4 22 2L5 29Z\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-41",
+    "category": "traffic",
+    "family": "macao",
+    "name": "蛇形山路",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a05b65\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-32 28H15Q33 28 33 12T15-4H-15Q-33-4-33-20T-15-36H23M-27 35H15Q40 35 40 12\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-42",
+    "category": "traffic",
+    "family": "macao",
+    "name": "环形广场",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ab8237\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"0\" cy=\"0\" r=\"28\"/><rect x=\"-10\" y=\"-10\" width=\"20\" height=\"20\"/><path d=\"M-35 0H-28M28 0H35M0-35V-28M0 28V35M-20-20L-26-26M20 20L26 26\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-43",
+    "category": "traffic",
+    "family": "macao",
+    "name": "教堂广场导向",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-26 28V-7L0-27 26-7V28M-10 28V8Q0-3 10 8V28M0-34V-20M-7-29H7M-34 35H34\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-44",
+    "category": "traffic",
+    "family": "macao",
+    "name": "海堤曲线",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a05b65\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-34-23C-5-3 5-3 34-23M-34-12C-5 8 5 8 34-12M-34 0C-5 20 5 20 34 0M-34 13C-5 33 5 33 34 13M-20 8V31M20 8V31\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-45",
+    "category": "traffic",
+    "family": "macao",
+    "name": "密集街网",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ab8237\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-30-30H-10V-10H10V-30H30V30H10V10H-10V30H-30ZM-30 0H-20M20 0H30M0-10V-2M0 10V2\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-46",
+    "category": "traffic",
+    "family": "macao",
+    "name": "蓝白界桩",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-15 33V-19Q0-39 15-19V33ZM-15-5H15M-15 10H15M-15 25H15M-25 34H25\" /><circle cx=\"0\" cy=\"-17\" r=\"4\"/></g></svg>"
+  },
+  {
+    "id": "traffic-macao-47",
+    "category": "traffic",
+    "family": "macao",
+    "name": "斑马交织",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a05b65\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-34-21L-12-34M-31-8L3-29M-23 5L18-21M-11 17L31-9M2 29L34 9M17 35L34 25\" stroke-width=\"6\"/></g></svg>"
+  },
+  {
+    "id": "traffic-macao-48",
+    "category": "traffic",
+    "family": "macao",
+    "name": "公交港湾",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ab8237\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-31-34V34M-20-34V-12Q-20 1-7 1H21Q33 1 33 14V34M-17 13H17V31H-17ZM-9 19H9M-9 27H9\" /></g></svg>"
+  },
+  {
+    "id": "traffic-macao-49",
+    "category": "traffic",
+    "family": "macao",
+    "name": "中葡路名层叠",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-33-31H25V-9H-33ZM-25-4H33V18H-25M-15 24H22V35H-15\" /><text x=\"-3\" y=\"-20\" font-family=\"Arial,sans-serif\" font-size=\"8\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"currentColor\" stroke=\"none\">AVENIDA</text><text x=\"4\" y=\"7\" font-family=\"Arial,sans-serif\" font-size=\"7\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"currentColor\" stroke=\"none\">TRAVESSA</text></g></svg>"
+  },
+  {
+    "id": "traffic-macao-50",
+    "category": "traffic",
+    "family": "macao",
+    "name": "水陆交接",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a05b65\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-30-31L-5-5 9-18 34 7M-30-17L-5 9 9-4 34 21M-33 29Q-21 18-9 29T15 29T39 29\" /><circle cx=\"24\" cy=\"-24\" r=\"6\"/></g></svg>"
+  },
+  {
+    "id": "glyph-macao-01",
+    "category": "glyph",
+    "family": "macao",
+    "name": "讓",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">讓</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-01",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "让",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">让</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-02",
+    "category": "glyph",
+    "family": "macao",
+    "name": "灣",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">灣</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-02",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "湾",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">湾</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-03",
+    "category": "glyph",
+    "family": "macao",
+    "name": "車",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">車</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-03",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "车",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">车</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-04",
+    "category": "glyph",
+    "family": "macao",
+    "name": "駛",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">駛</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-04",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "驶",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">驶</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-05",
+    "category": "glyph",
+    "family": "macao",
+    "name": "開",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">開</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-05",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "开",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">开</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-06",
+    "category": "glyph",
+    "family": "macao",
+    "name": "關",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">關</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-06",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "关",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">关</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-07",
+    "category": "glyph",
+    "family": "macao",
+    "name": "轉",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">轉</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-07",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "转",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">转</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-08",
+    "category": "glyph",
+    "family": "macao",
+    "name": "橋",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">橋</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-08",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "桥",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">桥</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-09",
+    "category": "glyph",
+    "family": "macao",
+    "name": "門",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">門</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-09",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "门",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">门</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-10",
+    "category": "glyph",
+    "family": "macao",
+    "name": "馬",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">馬</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-10",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "马",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">马</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-11",
+    "category": "glyph",
+    "family": "macao",
+    "name": "風",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">風</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-11",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "风",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">风</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-12",
+    "category": "glyph",
+    "family": "macao",
+    "name": "雲",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">雲</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-12",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "云",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">云</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-13",
+    "category": "glyph",
+    "family": "macao",
+    "name": "龍",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">龍</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-13",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "龙",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">龙</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-14",
+    "category": "glyph",
+    "family": "macao",
+    "name": "鳳",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">鳳</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-14",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "凤",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">凤</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-15",
+    "category": "glyph",
+    "family": "macao",
+    "name": "鳥",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">鳥</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-15",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "鸟",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">鸟</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-16",
+    "category": "glyph",
+    "family": "macao",
+    "name": "魚",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">魚</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-16",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "鱼",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">鱼</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-17",
+    "category": "glyph",
+    "family": "macao",
+    "name": "島",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">島</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-17",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "岛",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">岛</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-18",
+    "category": "glyph",
+    "family": "macao",
+    "name": "東",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">東</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-18",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "东",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">东</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-19",
+    "category": "glyph",
+    "family": "macao",
+    "name": "廣",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">廣</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-19",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "广",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">广</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-20",
+    "category": "glyph",
+    "family": "macao",
+    "name": "樂",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">樂</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-20",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "乐",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">乐</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-21",
+    "category": "glyph",
+    "family": "macao",
+    "name": "華",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">華</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-21",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "华",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">华</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-22",
+    "category": "glyph",
+    "family": "macao",
+    "name": "國",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">國</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-22",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "国",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">国</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-23",
+    "category": "glyph",
+    "family": "macao",
+    "name": "學",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">學</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-23",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "学",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">学</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-24",
+    "category": "glyph",
+    "family": "macao",
+    "name": "書",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">書</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-24",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "书",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">书</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-25",
+    "category": "glyph",
+    "family": "macao",
+    "name": "畫",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">畫</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-25",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "画",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">画</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-26",
+    "category": "glyph",
+    "family": "macao",
+    "name": "體",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">體</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-26",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "体",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">体</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-27",
+    "category": "glyph",
+    "family": "macao",
+    "name": "聲",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">聲</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-27",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "声",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">声</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-28",
+    "category": "glyph",
+    "family": "macao",
+    "name": "萬",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">萬</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-28",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "万",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">万</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-29",
+    "category": "glyph",
+    "family": "macao",
+    "name": "與",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">與</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-29",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "与",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">与</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-30",
+    "category": "glyph",
+    "family": "macao",
+    "name": "為",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">為</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-30",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "为",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">为</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-31",
+    "category": "glyph",
+    "family": "macao",
+    "name": "來",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">來</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-31",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "来",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">来</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-32",
+    "category": "glyph",
+    "family": "macao",
+    "name": "歸",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">歸</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-32",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "归",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">归</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-33",
+    "category": "glyph",
+    "family": "macao",
+    "name": "還",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">還</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-33",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "还",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">还</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-34",
+    "category": "glyph",
+    "family": "macao",
+    "name": "遠",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">遠</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-34",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "远",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">远</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-35",
+    "category": "glyph",
+    "family": "macao",
+    "name": "達",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">達</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-35",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "达",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">达</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-36",
+    "category": "glyph",
+    "family": "macao",
+    "name": "運",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">運</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-36",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "运",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">运</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-37",
+    "category": "glyph",
+    "family": "macao",
+    "name": "連",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">連</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-37",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "连",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">连</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-38",
+    "category": "glyph",
+    "family": "macao",
+    "name": "遊",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">遊</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-38",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "游",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">游</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-39",
+    "category": "glyph",
+    "family": "macao",
+    "name": "觀",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">觀</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-39",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "观",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">观</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-40",
+    "category": "glyph",
+    "family": "macao",
+    "name": "覽",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">覽</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-40",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "览",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">览</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-41",
+    "category": "glyph",
+    "family": "macao",
+    "name": "見",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">見</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-41",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "见",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">见</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-42",
+    "category": "glyph",
+    "family": "macao",
+    "name": "聽",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">聽</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-42",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "听",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">听</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-43",
+    "category": "glyph",
+    "family": "macao",
+    "name": "說",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">說</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-43",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "说",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">说</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-44",
+    "category": "glyph",
+    "family": "macao",
+    "name": "語",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">語</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-44",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "语",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">语</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-45",
+    "category": "glyph",
+    "family": "macao",
+    "name": "讀",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">讀</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-45",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "读",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">读</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-46",
+    "category": "glyph",
+    "family": "macao",
+    "name": "寫",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">寫</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-46",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "写",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">写</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-47",
+    "category": "glyph",
+    "family": "macao",
+    "name": "愛",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">愛</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-47",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "爱",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">爱</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-48",
+    "category": "glyph",
+    "family": "macao",
+    "name": "夢",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">夢</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-48",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "梦",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">梦</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-49",
+    "category": "glyph",
+    "family": "macao",
+    "name": "燈",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">燈</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-49",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "灯",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">灯</text></g></svg>"
+  },
+  {
+    "id": "glyph-macao-50",
+    "category": "glyph",
+    "family": "macao",
+    "name": "樓",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3f4895\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"Songti SC,serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3f4895\" stroke=\"none\">樓</text></g></svg>"
+  },
+  {
+    "id": "glyph-mainland-50",
+    "category": "glyph",
+    "family": "mainland",
+    "name": "楼",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#28685a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"0\" y=\"2\" font-family=\"PingFang SC,sans-serif\" font-size=\"56\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#28685a\" stroke=\"none\">楼</text></g></svg>"
+  },
+  {
+    "id": "culture-mainland-01",
+    "category": "culture",
+    "family": "mainland",
+    "name": "木棉五瓣",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ad492f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"rotate(0.0) translate(0 0)\"><path d=\"M0 0C-23-12-15-39 0-31C15-39 23-12 0 0Z\"  fill=\"#46715f\" fill-opacity=\".18\"/></g><g transform=\"rotate(72.0) translate(0 0)\"><path d=\"M0 0C-23-12-15-39 0-31C15-39 23-12 0 0Z\" /></g><g transform=\"rotate(144.0) translate(0 0)\"><path d=\"M0 0C-23-12-15-39 0-31C15-39 23-12 0 0Z\" /></g><g transform=\"rotate(216.0) translate(0 0)\"><path d=\"M0 0C-23-12-15-39 0-31C15-39 23-12 0 0Z\"  fill=\"#46715f\" fill-opacity=\".18\"/></g><g transform=\"rotate(288.0) translate(0 0)\"><path d=\"M0 0C-23-12-15-39 0-31C15-39 23-12 0 0Z\" /></g><circle cx=\"0\" cy=\"0\" r=\"5\"/><g stroke=\"#46715f\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"2\"/></g></g></svg>",
+    "palette": [
+      "#ad492f",
+      "#46715f"
+    ]
+  },
+  {
+    "id": "culture-mainland-02",
+    "category": "culture",
+    "family": "mainland",
+    "name": "广绣牡丹",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#bd8b30\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"rotate(0.0) translate(0 0)\"><path d=\"M0-5C-20-13-15-32-4-29C7-38 19-23 10-15Z\" /></g><g transform=\"rotate(51.42857142857143) translate(0 0)\"><path d=\"M0-5C-20-13-15-32-4-29C7-38 19-23 10-15Z\" /></g><g transform=\"rotate(102.85714285714286) translate(0 0)\"><path d=\"M0-5C-20-13-15-32-4-29C7-38 19-23 10-15Z\"  fill=\"#985364\" fill-opacity=\".18\"/></g><g transform=\"rotate(154.28571428571428) translate(0 0)\"><path d=\"M0-5C-20-13-15-32-4-29C7-38 19-23 10-15Z\" /></g><g transform=\"rotate(205.71428571428572) translate(0 0)\"><path d=\"M0-5C-20-13-15-32-4-29C7-38 19-23 10-15Z\" /></g><g transform=\"rotate(257.14285714285717) translate(0 0)\"><path d=\"M0-5C-20-13-15-32-4-29C7-38 19-23 10-15Z\"  fill=\"#985364\" fill-opacity=\".18\"/></g><g transform=\"rotate(308.57142857142856) translate(0 0)\"><path d=\"M0-5C-20-13-15-32-4-29C7-38 19-23 10-15Z\" /></g><g transform=\"rotate(0.0) translate(0 0)\"><path d=\"M0 0Q-9-19 0-20Q11-13 0 0\" /></g><g transform=\"rotate(72.0) translate(0 0)\"><path d=\"M0 0Q-9-19 0-20Q11-13 0 0\" /></g><g transform=\"rotate(144.0) translate(0 0)\"><path d=\"M0 0Q-9-19 0-20Q11-13 0 0\" /></g><g transform=\"rotate(216.0) translate(0 0)\"><path d=\"M0 0Q-9-19 0-20Q11-13 0 0\" /></g><g transform=\"rotate(288.0) translate(0 0)\"><path d=\"M0 0Q-9-19 0-20Q11-13 0 0\" /></g><g stroke=\"#985364\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"3\"/></g></g></svg>",
+    "palette": [
+      "#bd8b30",
+      "#985364"
+    ]
+  },
+  {
+    "id": "culture-mainland-03",
+    "category": "culture",
+    "family": "mainland",
+    "name": "广彩蕉叶",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#46715f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-26 30Q-37-31 28-33Q32 10-26 30ZM-26 30L28-33M-18 19L-23-8M-6 6L-9-23M6-8L7-29M-18 19L5 20M-6 6L21 8M6-8L29-8\" /><g stroke=\"#272c32\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"4\"/></g></g></svg>",
+    "palette": [
+      "#46715f",
+      "#272c32"
+    ]
+  },
+  {
+    "id": "culture-mainland-04",
+    "category": "culture",
+    "family": "mainland",
+    "name": "醒狮双眼",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#985364\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-34 0Q-22-25-5-8Q-12 17-30 7ZM34 0Q22-25 5-8Q12 17 30 7Z\"  fill=\"#8e3d31\" fill-opacity=\".18\"/><circle cx=\"-19\" cy=\"-1\" r=\"5\"/><circle cx=\"19\" cy=\"-1\" r=\"5\"/><path d=\"M-9 13L0 21 9 13M-25 23Q0 39 25 23M-27-24L-17-32-7-23M7-23L17-32 27-24\" /><g stroke=\"#8e3d31\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"5\"/></g></g></svg>",
+    "palette": [
+      "#985364",
+      "#8e3d31"
+    ]
+  },
+  {
+    "id": "culture-mainland-05",
+    "category": "culture",
+    "family": "mainland",
+    "name": "龙舟竞渡",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#272c32\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-36 7Q0 30 28 7L34-13 20-5M-31 3L-35-9-21-3M-20 3L-7-20M-4 8L9-15M12 7L25-12\" /><path d=\"M-32 -20Q-16 -36 0 -20T32 -20\" /><path d=\"M-32 2Q-16 -14 0 2T32 2\" /><path d=\"M-32 24Q-16 8 0 24T32 24\" /><g stroke=\"#9d792a\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"2\"/></g></g></svg>",
+    "palette": [
+      "#272c32",
+      "#9d792a"
+    ]
+  },
+  {
+    "id": "culture-mainland-06",
+    "category": "culture",
+    "family": "mainland",
+    "name": "荔枝裂纹",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#8e3d31\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"0\" cy=\"0\" r=\"28\"/><path d=\"M-25-9L-10-13 0-26 10-13 26-9 18 6 19 21 0 15-17 23-18 5Z\" /><path d=\"M-10-13L0 2 10-13M0 2L18 6M0 2L-18 5M0 2V15\" /><g stroke=\"#2e6158\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"3\"/></g></g></svg>",
+    "palette": [
+      "#8e3d31",
+      "#2e6158"
+    ]
+  },
+  {
+    "id": "culture-mainland-07",
+    "category": "culture",
+    "family": "mainland",
+    "name": "岭南满洲窗",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#9d792a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"-30\" y=\"-30\" width=\"60\" height=\"60\"/><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\"/><path d=\"M0-30V30M-30 0H30M-22-22L22 22M22-22L-22 22\" /><circle cx=\"0\" cy=\"0\" r=\"12\"/><g stroke=\"#a65b42\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"4\"/></g></g></svg>",
+    "palette": [
+      "#9d792a",
+      "#a65b42"
+    ]
+  },
+  {
+    "id": "culture-mainland-08",
+    "category": "culture",
+    "family": "mainland",
+    "name": "灰塑卷草",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#2e6158\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-30 30C-15 3-28-20-2-30C26-43 41-9 20 0C0 6-11-16 8-18C23-20 24-7 15-9M-15 9C19-6 40 19 23 31C5 40-5 18 9 18\" /><g stroke=\"#694f68\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"5\"/></g></g></svg>",
+    "palette": [
+      "#2e6158",
+      "#694f68"
+    ]
+  },
+  {
+    "id": "culture-mainland-09",
+    "category": "culture",
+    "family": "mainland",
+    "name": "佛山剪纸蝶",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a65b42\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M0 31V-26M-1-8C-34-48-45-5-9 5C-48 3-31 39 0 15M1-8C34-48 45-5 9 5C48 3 31 39 0 15M-1-26L-12-34M1-26L12-34\" /><circle cx=\"-21\" cy=\"-14\" r=\"6\"/><circle cx=\"21\" cy=\"-14\" r=\"6\"/><circle cx=\"-18\" cy=\"17\" r=\"4\"/><circle cx=\"18\" cy=\"17\" r=\"4\"/><g stroke=\"#ba603f\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"2\"/></g></g></svg>",
+    "palette": [
+      "#a65b42",
+      "#ba603f"
+    ]
+  },
+  {
+    "id": "culture-mainland-10",
+    "category": "culture",
+    "family": "mainland",
+    "name": "香云纱经纬",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#694f68\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-30-25C-12-12-12 12-30 25M-15-31C3-12 3 12-15 31M0-32C18-12 18 12 0 32M15-27C33-12 33 12 15 27M-30-18H28M-33-6H33M-33 6H33M-28 18H30\" /><g stroke=\"#8d7437\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"3\"/></g></g></svg>",
+    "palette": [
+      "#694f68",
+      "#8d7437"
+    ]
+  },
+  {
+    "id": "culture-mainland-11",
+    "category": "culture",
+    "family": "mainland",
+    "name": "潮绣金线凤羽",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ba603f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"rotate(0.0) translate(0 0)\"><path d=\"M0 5C-27-12-19-36-5-25C13-34 21-10 0 5ZM-3-4Q-13-20-5-17Q7-23 4-8\" /></g><g transform=\"rotate(72.0) translate(0 0)\"><path d=\"M0 5C-27-12-19-36-5-25C13-34 21-10 0 5ZM-3-4Q-13-20-5-17Q7-23 4-8\" /></g><g transform=\"rotate(144.0) translate(0 0)\"><path d=\"M0 5C-27-12-19-36-5-25C13-34 21-10 0 5ZM-3-4Q-13-20-5-17Q7-23 4-8\"  fill=\"#396e61\" fill-opacity=\".18\"/></g><g transform=\"rotate(216.0) translate(0 0)\"><path d=\"M0 5C-27-12-19-36-5-25C13-34 21-10 0 5ZM-3-4Q-13-20-5-17Q7-23 4-8\" /></g><g transform=\"rotate(288.0) translate(0 0)\"><path d=\"M0 5C-27-12-19-36-5-25C13-34 21-10 0 5ZM-3-4Q-13-20-5-17Q7-23 4-8\" /></g><g stroke=\"#396e61\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"4\"/></g></g></svg>",
+    "palette": [
+      "#ba603f",
+      "#396e61"
+    ]
+  },
+  {
+    "id": "culture-mainland-12",
+    "category": "culture",
+    "family": "mainland",
+    "name": "南粤云肩",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#8d7437\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M0-35C11-16 26-25 24-9C43-7 34 9 19 13C28 30 9 32 0 23C-9 32-28 30-19 13C-34 9-43-7-24-9C-26-25-11-16 0-35Z\" /><circle cx=\"0\" cy=\"0\" r=\"10\"/><g stroke=\"#a34355\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"5\"/></g></g></svg>",
+    "palette": [
+      "#8d7437",
+      "#a34355"
+    ]
+  },
+  {
+    "id": "culture-mainland-13",
+    "category": "culture",
+    "family": "mainland",
+    "name": "石湾陶涡",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#396e61\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-30 5C-31-33 25-45 33-4C41 34-15 41-22 15C-30-12 12-24 19-3C26 15-4 24-8 9C-12-4 5-7 7 3\" /><g stroke=\"#4f473a\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"2\"/></g></g></svg>",
+    "palette": [
+      "#396e61",
+      "#4f473a"
+    ]
+  },
+  {
+    "id": "culture-mainland-14",
+    "category": "culture",
+    "family": "mainland",
+    "name": "端砚流云",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a34355\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-32 17Q-40-9-17-10Q-19-36 6-30Q29-28 24-8Q42-2 32 17Q20 29 3 21Q-18 38-32 17ZM-18 8Q0-18 22 4M-10 18Q6-2 24 12\" /><g stroke=\"#ba883c\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"3\"/></g></g></svg>",
+    "palette": [
+      "#a34355",
+      "#ba883c"
+    ]
+  },
+  {
+    "id": "culture-mainland-15",
+    "category": "culture",
+    "family": "mainland",
+    "name": "竹编六角",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#4f473a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M0-33L29-16V16L0 33-29 16V-16ZM-15-25L15 25M-29-8L29 8M-15 25L15-25M0-33V33M-29-16L29 16M-29 16L29-16\" /><g stroke=\"#7f4538\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"4\"/></g></g></svg>",
+    "palette": [
+      "#4f473a",
+      "#7f4538"
+    ]
+  },
+  {
+    "id": "culture-mainland-16",
+    "category": "culture",
+    "family": "mainland",
+    "name": "广彩缠枝莲",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#ba883c\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-33 26C0 37-18-6 3-19S34-2 18 11C0 25-12 3 3 1M-22 14Q-35-9-17-10Q0-1-22 14M15-11Q5-35 28-30Q41-17 15-11\" /><circle cx=\"4\" cy=\"-18\" r=\"4\"/><g stroke=\"#71805c\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"5\"/></g></g></svg>",
+    "palette": [
+      "#ba883c",
+      "#71805c"
+    ]
+  },
+  {
+    "id": "culture-mainland-17",
+    "category": "culture",
+    "family": "mainland",
+    "name": "岭南鳞波",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#7f4538\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-30 -18Q-20 -37 -10 -18Q-20 -12 -30 -18Z\" /><path d=\"M-10 -18Q0 -37 10 -18Q0 -12 -10 -18Z\" /><path d=\"M10 -18Q20 -37 30 -18Q20 -12 10 -18Z\"  fill=\"#9b657a\" fill-opacity=\".18\"/><path d=\"M-40 2Q-30 -17 -20 2Q-30 8 -40 2Z\" /><path d=\"M-20 2Q-10 -17 0 2Q-10 8 -20 2Z\" /><path d=\"M0 2Q10 -17 20 2Q10 8 0 2Z\"  fill=\"#9b657a\" fill-opacity=\".18\"/><path d=\"M20 2Q30 -17 40 2Q30 8 20 2Z\" /><path d=\"M-30 22Q-20 3 -10 22Q-20 28 -30 22Z\" /><path d=\"M-10 22Q0 3 10 22Q0 28 -10 22Z\"  fill=\"#9b657a\" fill-opacity=\".18\"/><path d=\"M10 22Q20 3 30 22Q20 28 10 22Z\" /><g stroke=\"#9b657a\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"2\"/></g></g></svg>",
+    "palette": [
+      "#7f4538",
+      "#9b657a"
+    ]
+  },
+  {
+    "id": "culture-mainland-18",
+    "category": "culture",
+    "family": "mainland",
+    "name": "粤剧水袖",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#71805c\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-32-23C-7-28 2-1 30-5C32 12 9 19-4 1C-18-16-25 2-35 4M-29 17C-13-3 1 35 29 20M-12-24L-1-34 8-21\" /><g stroke=\"#575f48\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"3\"/></g></g></svg>",
+    "palette": [
+      "#71805c",
+      "#575f48"
+    ]
+  },
+  {
+    "id": "culture-mainland-19",
+    "category": "culture",
+    "family": "mainland",
+    "name": "客家围屋",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#9b657a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"rotate(0.0) translate(0 0)\"><path d=\"M-10-28H10V-17H-10ZM-7-17V-8H7V-17\"  fill=\"#ad492f\" fill-opacity=\".18\"/></g><g transform=\"rotate(45.0) translate(0 0)\"><path d=\"M-10-28H10V-17H-10ZM-7-17V-8H7V-17\" /></g><g transform=\"rotate(90.0) translate(0 0)\"><path d=\"M-10-28H10V-17H-10ZM-7-17V-8H7V-17\" /></g><g transform=\"rotate(135.0) translate(0 0)\"><path d=\"M-10-28H10V-17H-10ZM-7-17V-8H7V-17\"  fill=\"#ad492f\" fill-opacity=\".18\"/></g><g transform=\"rotate(180.0) translate(0 0)\"><path d=\"M-10-28H10V-17H-10ZM-7-17V-8H7V-17\" /></g><g transform=\"rotate(225.0) translate(0 0)\"><path d=\"M-10-28H10V-17H-10ZM-7-17V-8H7V-17\" /></g><g transform=\"rotate(270.0) translate(0 0)\"><path d=\"M-10-28H10V-17H-10ZM-7-17V-8H7V-17\"  fill=\"#ad492f\" fill-opacity=\".18\"/></g><g transform=\"rotate(315.0) translate(0 0)\"><path d=\"M-10-28H10V-17H-10ZM-7-17V-8H7V-17\" /></g><circle cx=\"0\" cy=\"0\" r=\"7\"/><g stroke=\"#ad492f\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"4\"/></g></g></svg>",
+    "palette": [
+      "#9b657a",
+      "#ad492f"
+    ]
+  },
+  {
+    "id": "culture-mainland-20",
+    "category": "culture",
+    "family": "mainland",
+    "name": "铜凿剪纸团花",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#575f48\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"rotate(0.0) translate(0 0)\"><path d=\"M0-5L-8-19 0-34 8-19ZM0-12L-3-20 0-26 3-20Z\" /></g><g transform=\"rotate(36.0) translate(0 0)\"><path d=\"M0-5L-8-19 0-34 8-19ZM0-12L-3-20 0-26 3-20Z\" /></g><g transform=\"rotate(72.0) translate(0 0)\"><path d=\"M0-5L-8-19 0-34 8-19ZM0-12L-3-20 0-26 3-20Z\"  fill=\"#bd8b30\" fill-opacity=\".18\"/></g><g transform=\"rotate(108.0) translate(0 0)\"><path d=\"M0-5L-8-19 0-34 8-19ZM0-12L-3-20 0-26 3-20Z\" /></g><g transform=\"rotate(144.0) translate(0 0)\"><path d=\"M0-5L-8-19 0-34 8-19ZM0-12L-3-20 0-26 3-20Z\" /></g><g transform=\"rotate(180.0) translate(0 0)\"><path d=\"M0-5L-8-19 0-34 8-19ZM0-12L-3-20 0-26 3-20Z\"  fill=\"#bd8b30\" fill-opacity=\".18\"/></g><g transform=\"rotate(216.0) translate(0 0)\"><path d=\"M0-5L-8-19 0-34 8-19ZM0-12L-3-20 0-26 3-20Z\" /></g><g transform=\"rotate(252.0) translate(0 0)\"><path d=\"M0-5L-8-19 0-34 8-19ZM0-12L-3-20 0-26 3-20Z\" /></g><g transform=\"rotate(288.0) translate(0 0)\"><path d=\"M0-5L-8-19 0-34 8-19ZM0-12L-3-20 0-26 3-20Z\"  fill=\"#bd8b30\" fill-opacity=\".18\"/></g><g transform=\"rotate(324.0) translate(0 0)\"><path d=\"M0-5L-8-19 0-34 8-19ZM0-12L-3-20 0-26 3-20Z\" /></g><circle cx=\"0\" cy=\"0\" r=\"4\"/><g stroke=\"#bd8b30\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"5\"/></g></g></svg>",
+    "palette": [
+      "#575f48",
+      "#bd8b30"
+    ]
+  },
+  {
+    "id": "culture-macao-01",
+    "category": "culture",
+    "family": "macao",
+    "name": "四瓣瓷花",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3d4e9e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"rotate(0.0) translate(0 0)\"><path d=\"M0 0C-23-7-22-30-6-28C7-28 15-10 0 0Z\"  fill=\"#a37239\" fill-opacity=\".18\"/></g><g transform=\"rotate(90.0) translate(0 0)\"><path d=\"M0 0C-23-7-22-30-6-28C7-28 15-10 0 0Z\" /></g><g transform=\"rotate(180.0) translate(0 0)\"><path d=\"M0 0C-23-7-22-30-6-28C7-28 15-10 0 0Z\" /></g><g transform=\"rotate(270.0) translate(0 0)\"><path d=\"M0 0C-23-7-22-30-6-28C7-28 15-10 0 0Z\"  fill=\"#a37239\" fill-opacity=\".18\"/></g><circle cx=\"0\" cy=\"0\" r=\"4\"/><g stroke=\"#a37239\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"2\"/></g></g></svg>",
+    "palette": [
+      "#3d4e9e",
+      "#a37239"
+    ]
+  },
+  {
+    "id": "culture-macao-02",
+    "category": "culture",
+    "family": "macao",
+    "name": "八芒星砖",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#74819e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M0-34L8-19 24-24 19-8 34 0 19 8 24 24 8 19 0 34-8 19-24 24-19 8-34 0-19-8-24-24-8-19Z\" /><rect x=\"-9\" y=\"-9\" width=\"18\" height=\"18\"/><g stroke=\"#498b8a\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"3\"/></g></g></svg>",
+    "palette": [
+      "#74819e",
+      "#498b8a"
+    ]
+  },
+  {
+    "id": "culture-macao-03",
+    "category": "culture",
+    "family": "macao",
+    "name": "蔓藤回转",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a37239\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"rotate(0.0) translate(0 0)\"><path d=\"M2-3C-6-34 30-34 28-13C26 1 8-4 13-13Q19-21 23-12\" /></g><g transform=\"rotate(90.0) translate(0 0)\"><path d=\"M2-3C-6-34 30-34 28-13C26 1 8-4 13-13Q19-21 23-12\" /></g><g transform=\"rotate(180.0) translate(0 0)\"><path d=\"M2-3C-6-34 30-34 28-13C26 1 8-4 13-13Q19-21 23-12\" /></g><g transform=\"rotate(270.0) translate(0 0)\"><path d=\"M2-3C-6-34 30-34 28-13C26 1 8-4 13-13Q19-21 23-12\" /></g><g stroke=\"#8f536e\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"4\"/></g></g></svg>",
+    "palette": [
+      "#a37239",
+      "#8f536e"
+    ]
+  },
+  {
+    "id": "culture-macao-04",
+    "category": "culture",
+    "family": "macao",
+    "name": "贝壳扇面",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#498b8a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-33 13Q-39-20-12-28Q0-40 12-28Q39-20 33 13L0 32ZM0 27L-24-13M0 27L-12-25M0 27V-30M0 27L12-25M0 27L24-13\"  fill=\"#315681\" fill-opacity=\".18\"/><g stroke=\"#315681\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"5\"/></g></g></svg>",
+    "palette": [
+      "#498b8a",
+      "#315681"
+    ]
+  },
+  {
+    "id": "culture-macao-05",
+    "category": "culture",
+    "family": "macao",
+    "name": "航海罗盘",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#8f536e\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"rotate(0.0) translate(0 0)\"><path d=\"M0-35L6-8 0-14-6-8Z\" /></g><g transform=\"rotate(45.0) translate(0 0)\"><path d=\"M0-35L6-8 0-14-6-8Z\" /></g><g transform=\"rotate(90.0) translate(0 0)\"><path d=\"M0-35L6-8 0-14-6-8Z\"  fill=\"#596ba6\" fill-opacity=\".18\"/></g><g transform=\"rotate(135.0) translate(0 0)\"><path d=\"M0-35L6-8 0-14-6-8Z\" /></g><g transform=\"rotate(180.0) translate(0 0)\"><path d=\"M0-35L6-8 0-14-6-8Z\" /></g><g transform=\"rotate(225.0) translate(0 0)\"><path d=\"M0-35L6-8 0-14-6-8Z\"  fill=\"#596ba6\" fill-opacity=\".18\"/></g><g transform=\"rotate(270.0) translate(0 0)\"><path d=\"M0-35L6-8 0-14-6-8Z\" /></g><g transform=\"rotate(315.0) translate(0 0)\"><path d=\"M0-35L6-8 0-14-6-8Z\" /></g><circle cx=\"0\" cy=\"0\" r=\"19\"/><circle cx=\"0\" cy=\"0\" r=\"5\"/><g stroke=\"#596ba6\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"2\"/></g></g></svg>",
+    "palette": [
+      "#8f536e",
+      "#596ba6"
+    ]
+  },
+  {
+    "id": "culture-macao-06",
+    "category": "culture",
+    "family": "macao",
+    "name": "澳门莲瓣砖",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#315681\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M0 23C-28 6-18-28 0-36C18-28 28 6 0 23ZM0 23C-29 29-43-5-32-22C-12-14-4 0 0 23M0 23C29 29 43-5 32-22C12-14 4 0 0 23M-22 32H22\" /><g stroke=\"#b68d4a\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"3\"/></g></g></svg>",
+    "palette": [
+      "#315681",
+      "#b68d4a"
+    ]
+  },
+  {
+    "id": "culture-macao-07",
+    "category": "culture",
+    "family": "macao",
+    "name": "海浪马赛克",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#596ba6\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-35 22Q-18-14-2 4Q5-23 22-14Q42-9 30 9Q20 17 15 5M-35 32Q-15 1 2 17Q19-2 35 16M-28-16Q-20-29-9-24\" /><g stroke=\"#4e7d82\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"4\"/></g></g></svg>",
+    "palette": [
+      "#596ba6",
+      "#4e7d82"
+    ]
+  },
+  {
+    "id": "culture-macao-08",
+    "category": "culture",
+    "family": "macao",
+    "name": "葡式绳结",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b68d4a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-23-19C-2-44 39-15 17 6L-8 28C-29 44-47 6-23-8L7-25C28-37 45-1 22 16L-8 36M-23-19L-7-5M17 6L30 18M-8 28L-20 14\" /><g stroke=\"#a26d82\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"5\"/></g></g></svg>",
+    "palette": [
+      "#b68d4a",
+      "#a26d82"
+    ]
+  },
+  {
+    "id": "culture-macao-09",
+    "category": "culture",
+    "family": "macao",
+    "name": "十字花格",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#4e7d82\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-10-34H10V-10H34V10H10V34H-10V10H-34V-10H-10ZM-4-26H4V-4H26V4H4V26H-4V4H-26V-4H-4Z\" /><g stroke=\"#4a408d\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"2\"/></g></g></svg>",
+    "palette": [
+      "#4e7d82",
+      "#4a408d"
+    ]
+  },
+  {
+    "id": "culture-macao-10",
+    "category": "culture",
+    "family": "macao",
+    "name": "菱形镶嵌",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#a26d82\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M0-35L35 0 0 35-35 0ZM0-25L25 0 0 25-25 0ZM0-12L12 0 0 12-12 0ZM-35-35L-19-19M35-35L19-19M35 35L19 19M-35 35L-19 19\"  fill=\"#748c97\" fill-opacity=\".18\"/><g stroke=\"#748c97\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"3\"/></g></g></svg>",
+    "palette": [
+      "#a26d82",
+      "#748c97"
+    ]
+  },
+  {
+    "id": "culture-macao-11",
+    "category": "culture",
+    "family": "macao",
+    "name": "卷涡花冠",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#4a408d\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"rotate(0.0) translate(0 0)\"><path d=\"M0-7C-28-11-24-33-6-30C9-28 4-13-5-16Q-14-21-7-24\" /></g><g transform=\"rotate(60.0) translate(0 0)\"><path d=\"M0-7C-28-11-24-33-6-30C9-28 4-13-5-16Q-14-21-7-24\" /></g><g transform=\"rotate(120.0) translate(0 0)\"><path d=\"M0-7C-28-11-24-33-6-30C9-28 4-13-5-16Q-14-21-7-24\" /></g><g transform=\"rotate(180.0) translate(0 0)\"><path d=\"M0-7C-28-11-24-33-6-30C9-28 4-13-5-16Q-14-21-7-24\" /></g><g transform=\"rotate(240.0) translate(0 0)\"><path d=\"M0-7C-28-11-24-33-6-30C9-28 4-13-5-16Q-14-21-7-24\" /></g><g transform=\"rotate(300.0) translate(0 0)\"><path d=\"M0-7C-28-11-24-33-6-30C9-28 4-13-5-16Q-14-21-7-24\" /></g><g stroke=\"#b18e69\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"4\"/></g></g></svg>",
+    "palette": [
+      "#4a408d",
+      "#b18e69"
+    ]
+  },
+  {
+    "id": "culture-macao-12",
+    "category": "culture",
+    "family": "macao",
+    "name": "扇形拱券",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#748c97\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-34 28A34 55 0 0 1 34 28M-26 28A26 43 0 0 1 26 28M-18 28A18 30 0 0 1 18 28M-10 28A10 17 0 0 1 10 28M-34 28H34\" /><g stroke=\"#3a7585\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"5\"/></g></g></svg>",
+    "palette": [
+      "#748c97",
+      "#3a7585"
+    ]
+  },
+  {
+    "id": "culture-macao-13",
+    "category": "culture",
+    "family": "macao",
+    "name": "青花枝叶",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#b18e69\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-27 33Q4 0 25-32M-16 19Q-40 11-26-7Q-10-3-16 19M-4 5Q-7-23 11-19Q19 2-4 5M6-9Q35 12 35-8Q28-21 6-9M17-22Q5-39-9-28Q-9-15 17-22\" /><g stroke=\"#8b698d\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"2\"/></g></g></svg>",
+    "palette": [
+      "#b18e69",
+      "#8b698d"
+    ]
+  },
+  {
+    "id": "culture-macao-14",
+    "category": "culture",
+    "family": "macao",
+    "name": "棋盘弧纹",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#3a7585\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-32-32H32V32H-32ZM0-32V32M-32 0H32M-32-32A32 32 0 0 1 0 0M0-32A32 32 0 0 0 32 0M-32 32A32 32 0 0 0 0 0M0 32A32 32 0 0 1 32 0\" /><g stroke=\"#365b9d\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"3\"/></g></g></svg>",
+    "palette": [
+      "#3a7585",
+      "#365b9d"
+    ]
+  },
+  {
+    "id": "culture-macao-15",
+    "category": "culture",
+    "family": "macao",
+    "name": "对鸟花砖",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#8b698d\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-30-4Q-13-29-1-10Q-12 11-29 18L-19-1-35-13M30-4Q13-29 1-10Q12 11 29 18L19-1 35-13M-12 25Q0 10 12 25M0 21V35\" /><circle cx=\"-12\" cy=\"-10\" r=\"2\"/><circle cx=\"12\" cy=\"-10\" r=\"2\"/><g stroke=\"#6d72a1\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"4\"/></g></g></svg>",
+    "palette": [
+      "#8b698d",
+      "#6d72a1"
+    ]
+  },
+  {
+    "id": "culture-macao-16",
+    "category": "culture",
+    "family": "macao",
+    "name": "双鱼瓷纹",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#365b9d\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-32-12Q-5-39 15-13L31-25V-1L15-13Q-3 9-32-12ZM32 15Q5 42-15 16L-31 28V4L-15 16Q3-6 32 15Z\"  fill=\"#927b4d\" fill-opacity=\".18\"/><circle cx=\"5\" cy=\"-14\" r=\"2\"/><circle cx=\"-5\" cy=\"17\" r=\"2\"/><g stroke=\"#927b4d\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"5\"/></g></g></svg>",
+    "palette": [
+      "#365b9d",
+      "#927b4d"
+    ]
+  },
+  {
+    "id": "culture-macao-17",
+    "category": "culture",
+    "family": "macao",
+    "name": "石仔路日轮",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#6d72a1\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"rotate(0.0) translate(0 0)\"><path d=\"M-3-21L-7-34 7-34 3-21Z\" /></g><g transform=\"rotate(30.0) translate(0 0)\"><path d=\"M-3-21L-7-34 7-34 3-21Z\" /></g><g transform=\"rotate(60.0) translate(0 0)\"><path d=\"M-3-21L-7-34 7-34 3-21Z\"  fill=\"#61938b\" fill-opacity=\".18\"/></g><g transform=\"rotate(90.0) translate(0 0)\"><path d=\"M-3-21L-7-34 7-34 3-21Z\" /></g><g transform=\"rotate(120.0) translate(0 0)\"><path d=\"M-3-21L-7-34 7-34 3-21Z\" /></g><g transform=\"rotate(150.0) translate(0 0)\"><path d=\"M-3-21L-7-34 7-34 3-21Z\"  fill=\"#61938b\" fill-opacity=\".18\"/></g><g transform=\"rotate(180.0) translate(0 0)\"><path d=\"M-3-21L-7-34 7-34 3-21Z\" /></g><g transform=\"rotate(210.0) translate(0 0)\"><path d=\"M-3-21L-7-34 7-34 3-21Z\" /></g><g transform=\"rotate(240.0) translate(0 0)\"><path d=\"M-3-21L-7-34 7-34 3-21Z\"  fill=\"#61938b\" fill-opacity=\".18\"/></g><g transform=\"rotate(270.0) translate(0 0)\"><path d=\"M-3-21L-7-34 7-34 3-21Z\" /></g><g transform=\"rotate(300.0) translate(0 0)\"><path d=\"M-3-21L-7-34 7-34 3-21Z\" /></g><g transform=\"rotate(330.0) translate(0 0)\"><path d=\"M-3-21L-7-34 7-34 3-21Z\"  fill=\"#61938b\" fill-opacity=\".18\"/></g><circle cx=\"0\" cy=\"0\" r=\"14\"/><g transform=\"rotate(0.0) translate(0 0)\"><path d=\"M0-5L4-10-4-10Z\" /></g><g transform=\"rotate(60.0) translate(0 0)\"><path d=\"M0-5L4-10-4-10Z\" /></g><g transform=\"rotate(120.0) translate(0 0)\"><path d=\"M0-5L4-10-4-10Z\"  fill=\"#61938b\" fill-opacity=\".18\"/></g><g transform=\"rotate(180.0) translate(0 0)\"><path d=\"M0-5L4-10-4-10Z\" /></g><g transform=\"rotate(240.0) translate(0 0)\"><path d=\"M0-5L4-10-4-10Z\" /></g><g transform=\"rotate(300.0) translate(0 0)\"><path d=\"M0-5L4-10-4-10Z\"  fill=\"#61938b\" fill-opacity=\".18\"/></g><g stroke=\"#61938b\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"2\"/></g></g></svg>",
+    "palette": [
+      "#6d72a1",
+      "#61938b"
+    ]
+  },
+  {
+    "id": "culture-macao-18",
+    "category": "culture",
+    "family": "macao",
+    "name": "葡式百合",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#927b4d\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M0 30V-30C-19-22-11-3 0 4C11-3 19-22 0-30M0 5C-23-26-44-2-22 11L-11 0M0 5C23-26 44-2 22 11L11 0M-14 18H14M-10 25H10\" /><g stroke=\"#9d6c71\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"3\"/></g></g></svg>",
+    "palette": [
+      "#927b4d",
+      "#9d6c71"
+    ]
+  },
+  {
+    "id": "culture-macao-19",
+    "category": "culture",
+    "family": "macao",
+    "name": "航海星链",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#61938b\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-30 0L-18-10-6 0-18 10ZM6 0L18-10 30 0 18 10ZM0-30L10-18 0-6-10-18ZM0 6L10 18 0 30-10 18Z\"  fill=\"#3d4e9e\" fill-opacity=\".18\"/><circle cx=\"0\" cy=\"0\" r=\"4\"/><path d=\"M-30-30L-20-20M30-30L20-20M30 30L20 20M-30 30L-20 20\" /><g stroke=\"#3d4e9e\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"4\"/></g></g></svg>",
+    "palette": [
+      "#61938b",
+      "#3d4e9e"
+    ]
+  },
+  {
+    "id": "culture-macao-20",
+    "category": "culture",
+    "family": "macao",
+    "name": "本土花叶拼砖",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-40 -40 80 80\"><g fill=\"none\" stroke=\"#9d6c71\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M-32-32Q0-13 32-32Q13 0 32 32Q0 13-32 32Q-13 0-32-32ZM-22-22Q0-3 22-22Q3 0 22 22Q0 3-22 22Q-3 0-22-22Z\" /><g transform=\"rotate(0.0) translate(0 0)\"><path d=\"M0-6Q-5-14 0-18Q5-14 0-6Z\" /></g><g transform=\"rotate(90.0) translate(0 0)\"><path d=\"M0-6Q-5-14 0-18Q5-14 0-6Z\"  fill=\"#74819e\" fill-opacity=\".18\"/></g><g transform=\"rotate(180.0) translate(0 0)\"><path d=\"M0-6Q-5-14 0-18Q5-14 0-6Z\" /></g><g transform=\"rotate(270.0) translate(0 0)\"><path d=\"M0-6Q-5-14 0-18Q5-14 0-6Z\" /></g><g stroke=\"#74819e\" stroke-width=\".7\"><circle cx=\"0\" cy=\"0\" r=\"5\"/></g></g></svg>",
+    "palette": [
+      "#9d6c71",
+      "#74819e"
+    ]
+  }
+]
